@@ -16,6 +16,9 @@ s: "cbaebabacd" p: "abc"
 Output:
 [0, 6]
 
+Similar Approach to Apply :- 
+76. Minimum window substring
+567. Permutation in String
 */
 import java.util.*;
 
@@ -46,10 +49,12 @@ class FindallAnagaramsOptimised {
 			char_count[c]--;
 			if (char_count[c] + 1 > 0)
 				count++;
+			//When string length is same equal to window having all characters and then move left pointer.
 			while (count == p.length()) {
-				// Window size same and then same 
+				// Window size same and storing the result.
 				if (right - left + 1 == p.length())
 					al.add(left);
+				//To make window invalid by removing the left character.
 				char temp = s.charAt(left);
 				char_count[temp]++;
 				if (char_count[temp] - 1 >= 0) {
