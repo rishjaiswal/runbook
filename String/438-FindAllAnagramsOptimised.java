@@ -66,3 +66,6 @@ class FindallAnagaramsOptimised {
 		return al;
 	}
 }
+
+//Time Complexity -O(S)
+//Space Complexity - O(1)
