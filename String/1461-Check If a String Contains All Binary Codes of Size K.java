@@ -43,3 +43,5 @@ class BinaryCodeSizeK {
 
 	}
 }
+//Time Complexity -O(S)
+//Space Complexity - O(Math.pow(2, k))
