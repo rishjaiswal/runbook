@@ -9,7 +9,7 @@ Last updated - 15th May 2021
 
 ##Dynamic Programming
 
-##BackTracking
+##Back-Tracking
 
 ##Graphs
 
